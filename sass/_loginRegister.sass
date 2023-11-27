@@ -1,0 +1,78 @@
+main
+   height: calc(100vh - 80px)
+   +center-flex
+   .control
+      width: 100%
+      button
+         transition: 0.5s
+         cursor: pointer
+         width: 48%
+         padding: 5%
+         background-color: white
+         border: none
+         border-bottom: 3px solid transparent
+      :nth-of-type(1)
+         margin-right: 2%
+      :nth-of-type(2)
+         margin-left: 2%
+      .click
+         border-bottom: 3px solid black
+   .forms
+      position: relative
+      overflow: hidden
+      +center-flex
+      justify-content: flex-start
+      background-color: $bg-color
+      height: 40%
+      padding: 20px
+      .login.hide 
+         transform: translateX(110%)
+         opacity: 0
+      .login
+         transform: translateX(0%)
+         transition: 0.5s
+         margin-top: 10px
+         display: flex
+         flex-direction: column
+         justify-content: center
+         align-items: flex-start
+         label
+            margin-bottom: 3px
+            font-size: 1.5rem
+         input
+            font-size: 2.6rem
+         a 
+            font-size: 1.5rem
+            padding: 10px 0
+         button
+            width: 100%
+            color: white
+            background-color: $dark-color
+            border: none
+            padding: 12px 0
+      .register.hide
+         opacity: 0
+         transform: translate(-110%,-88%)
+      .register
+         transform: translate(0,-88%)
+         transition: 0.5s
+         margin-top: 10px
+         display: flex
+         flex-direction: column
+         justify-content: center
+         align-items: flex-start
+         label
+            margin-bottom: 3px
+            font-size: 1.5rem
+         input
+            font-size: 2.6rem
+         a 
+            font-size: 1.5rem
+            padding: 10px 0
+         button
+            margin-top: 20px
+            width: 100%
+            color: white
+            background-color: $dark-color
+            border: none
+            padding: 12px 0
