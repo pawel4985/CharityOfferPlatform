@@ -24,13 +24,14 @@
         <?php
         $pages = [
             'login' => 'components/loginRegister.php',
+            'announcements' => 'components/announcements.php',
             'logout' => 'components/logout.php',
         ];
         if (isset($_GET['page'])) {
             $page = $_GET['page'];
             include "$pages[$page]";
         } else {
-            include "$pages[login]";
+            include "$pages[announcements]";
         }
         ?>
     </main>

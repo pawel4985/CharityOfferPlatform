@@ -1,3 +1,4 @@
+<script src="components/loginRegister.js" defer></script>
 <div class="forms">
     <div class="control"><button class="click">Zaloguj się</button><button>Załóż konto</button></div>
     <div class="inputs">
@@ -19,4 +20,5 @@
             <button>Załóż konto</button>
         </div>
     </div>
+    <p class="wrong"></p>
 </div>

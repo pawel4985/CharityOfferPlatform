@@ -18,13 +18,19 @@ main
       .click
          border-bottom: 3px solid black
    .forms
+      justify-self: center
       position: relative
       overflow: hidden
       +center-flex
       justify-content: flex-start
       background-color: $bg-color
-      height: 40%
+      height: 40.5%
       padding: 20px
+      .wrong
+         font-size: 1.5rem
+         position: absolute
+         bottom: 4px
+         color: red
       .login.hide 
          transform: translateX(110%)
          opacity: 0

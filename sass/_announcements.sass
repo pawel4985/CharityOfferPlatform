@@ -1,0 +1,51 @@
+main
+   height: 100%
+   div.announcements
+      height: 100%
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      flex-direction: column
+      width: 100%
+      .search
+         background-color: $bg-color
+         padding: 3% 0
+         display: flex
+         justify-content: center
+         align-items: center
+         width: 100%
+         input
+            padding: 10px
+            font-size: 4rem
+            width: 50%
+         button
+            background-color: white
+            border: none
+            padding: 10px
+            font-size: 4rem
+            width: 15%
+   .categories
+      +center-flex
+      width: 100%
+      justify-self: flex-start
+      h1
+         margin: 3% 0
+         font-size: 5rem
+      .content
+         width: 100%
+         display: flex
+         align-items: center
+         justify-content: space-around
+         .category
+            cursor: pointer
+            width: 5%
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            i
+               color: $dark-color
+               font-size: 8rem
+            p
+               margin-top: 10px
+               font-size: 2rem
