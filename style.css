@@ -221,6 +221,10 @@ main div.announcements {
   flex-direction: column;
   width: 100%;
 }
+main div.announcements h1 {
+  margin: 30px 0;
+  font-size: 5rem;
+}
 main div.announcements .search {
   background-color: rgba(62, 60, 157, 0.4274509804);
   padding: 3% 0;
@@ -249,29 +253,28 @@ main .categories {
   width: 100%;
   justify-self: flex-start;
 }
-main .categories h1 {
-  margin: 3% 0;
-  font-size: 5rem;
-}
 main .categories .content {
+  flex-wrap: wrap;
   width: 100%;
+  height: 40vh;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 main .categories .content .category {
-  cursor: pointer;
-  width: 5%;
+  flex-basis: 33.333%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 main .categories .content .category i {
+  cursor: pointer;
   color: #3D3C9D;
   font-size: 8rem;
 }
 main .categories .content .category p {
+  cursor: pointer;
   margin-top: 10px;
   font-size: 2rem;
-}
+}/*# sourceMappingURL=style.css.map */
