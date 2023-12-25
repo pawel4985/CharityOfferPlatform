@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,9 +209,6 @@ main .forms .register button {
   padding: 12px 0;
 }
 
-main {
-  height: 100%;
-}
 main div.announcements {
   height: 100%;
   display: flex;
@@ -222,12 +218,13 @@ main div.announcements {
   width: 100%;
 }
 main div.announcements h1 {
+  text-align: center;
   margin: 30px 0;
   font-size: 5rem;
 }
 main div.announcements .search {
-  background-color: rgba(62, 60, 157, 0.4274509804);
-  padding: 3% 0;
+  background-color: rgba(62, 60, 157, 0.0823529412);
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,7 +236,8 @@ main div.announcements .search input {
   width: 50%;
 }
 main div.announcements .search button {
-  background-color: white;
+  color: #ffffff;
+  background-color: #3D3C9D;
   border: none;
   padding: 10px;
   font-size: 4rem;
@@ -271,10 +269,55 @@ main .categories .content .category {
 main .categories .content .category i {
   cursor: pointer;
   color: #3D3C9D;
-  font-size: 8rem;
+  font-size: 5vw;
 }
 main .categories .content .category p {
   cursor: pointer;
   margin-top: 10px;
   font-size: 2rem;
+}
+main .offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(62, 60, 157, 0.0823529412);
+}
+main .offers .content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+main .offers .content .annoucement {
+  cursor: pointer;
+  margin: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-basis: calc(25% - 10px);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 2rem;
+}
+main .offers .content .annoucement img {
+  width: 100%;
+  display: block;
+}
+main .offers .content .annoucement p.title {
+  padding: 10px 10px 0 10px;
+}
+main .offers .content .annoucement p.price {
+  padding: 5px 10px 0 10px;
+  font-weight: bold;
+}
+main .offers .content .annoucement p.location {
+  font-size: 1rem;
+  padding: 10px 10px 0 10px;
+}
+main .offers .content .annoucement p.date {
+  font-size: 1rem;
+  padding: 0px 10px 20px 10px;
 }/*# sourceMappingURL=style.css.map */

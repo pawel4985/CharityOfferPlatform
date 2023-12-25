@@ -1,5 +1,4 @@
 main
-   height: 100%
    div.announcements
       height: 100%
       display: flex
@@ -8,11 +7,12 @@ main
       flex-direction: column
       width: 100%
       h1
+         text-align: center
          margin: 30px 0
          font-size: 5rem
       .search
-         background-color: $bg-color
-         padding: 3% 0
+         background-color: $light-bg-color
+         padding: 50px 0
          display: flex
          justify-content: center
          align-items: center
@@ -22,11 +22,13 @@ main
             font-size: 4rem
             width: 50%
          button
-            background-color: white
+            color: $white
+            background-color: $dark-color
             border: none
             padding: 10px
             font-size: 4rem
             width: 15%
+      
    .categories
       +center-flex
       width: 100%
@@ -47,8 +49,42 @@ main
             i
                cursor: pointer
                color: $dark-color
-               font-size: 8rem
+               font-size: 5vw
             p
                cursor: pointer
                margin-top: 10px
                font-size: 2rem
+   .offers
+      +center-flex
+      flex-direction: column
+      background-color: $light-bg-color
+      .content
+         width: 80%
+         display: flex
+         align-items: center
+         justify-content: flex-start
+         flex-wrap: wrap
+         .annoucement
+            cursor: pointer
+            margin: 5px
+            background-color: $white
+            display: flex
+            flex-basis: calc( 25% - (2 * 5px) )
+            flex-direction: column
+            align-items: flex-start
+            justify-content: flex-start
+            font-size: 2rem
+            img
+               width: 100%
+               display: block
+            p.title
+               padding: 10px 10px 0 10px 
+            p.price
+               padding: 5px 10px 0 10px 
+               font-weight: bold
+            p.location
+               font-size: 1rem
+               padding: 10px 10px 0 10px 
+            p.date
+               font-size: 1rem
+               padding: 0px 10px 20px 10px 
