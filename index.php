@@ -1,5 +1,5 @@
 <?php
-// require_once("session.php");
+require_once("modules/session.php");
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -24,6 +24,7 @@
         <?php
         $pages = [
             'login' => 'components/loginRegister.php',
+            'addannouncement' => 'components/addAnnouncement.html',
             'announcements' => 'components/announcements.php',
             'logout' => 'components/logout.php',
         ];

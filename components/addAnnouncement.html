@@ -1,13 +1,19 @@
+<div class="addannouncement">
 <h1>Dodaj ogłoszenie</h1>
-<label for="file">Dodaj zdjęcia</label>
-<input type="file" name="file" />
+<div class="info">
 <label for="title">Tytuł ogłoszenia</label>
 <input type="text" name="title" />
 <label for="category">Wybierz kategorie</label>
-<select name="category"></select>
+<select name="category">
+    <option value="" selected disabled hidden>Wybierz kategorie</option>
+</select>
+<label for="file">Dodaj zdjęcia</label>
+<input type="file" name="file" />
 <label for="description">Opis</label>
 <textarea name="description"></textarea>
+</div>
 <h2>Kontakt do ciebie</h2>
+<div class="contact">
 <label for="location">Lokalizacja</label>
 <input type="text" name="location" />
 <label for="contactPerson">Osoba kontaktowa</label>
@@ -17,3 +23,5 @@
 <label for="phone">Numer Telefonu</label>
 <input type="text" name="phone" />
 <button>Dodaj ogłoszenie</button>
+</div>
+</div>

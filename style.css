@@ -209,6 +209,11 @@ main .forms .register button {
   padding: 12px 0;
 }
 
+main h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 5rem;
+}
 main div.announcements {
   height: 100%;
   display: flex;
@@ -216,11 +221,6 @@ main div.announcements {
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-}
-main div.announcements h1 {
-  text-align: center;
-  margin: 30px 0;
-  font-size: 5rem;
 }
 main div.announcements .search {
   background-color: rgba(62, 60, 157, 0.0823529412);
@@ -320,4 +320,32 @@ main .offers .content .annoucement p.location {
 main .offers .content .annoucement p.date {
   font-size: 1rem;
   padding: 0px 10px 20px 10px;
+}
+
+main div.addannouncement {
+  width: 100%;
+  background-color: rgba(62, 60, 157, 0.0823529412);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main div.addannouncement input, main div.addannouncement select {
+  padding: 10px;
+  font-size: 3rem;
+}
+main div.addannouncement label {
+  font-size: 2rem;
+}
+main div.addannouncement div.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main div.addannouncement div.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }/*# sourceMappingURL=style.css.map */
