@@ -55,6 +55,7 @@ main
                margin-top: 10px
                font-size: 2rem
    .offers
+      width: 100%
       +center-flex
       flex-direction: column
       background-color: $light-bg-color
@@ -74,9 +75,12 @@ main
             align-items: flex-start
             justify-content: flex-start
             font-size: 2rem
-            img
+            div.img
+               background-size: cover
+               background-repeat: no-repeat
+               background-position: center
                width: 100%
-               display: block
+               height:250px
             p.title
                padding: 10px 10px 0 10px 
             p.price

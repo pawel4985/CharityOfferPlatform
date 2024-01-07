@@ -277,6 +277,7 @@ main .categories .content .category p {
   font-size: 2rem;
 }
 main .offers {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -302,9 +303,12 @@ main .offers .content .annoucement {
   justify-content: flex-start;
   font-size: 2rem;
 }
-main .offers .content .annoucement img {
+main .offers .content .annoucement div.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
-  display: block;
+  height: 250px;
 }
 main .offers .content .annoucement p.title {
   padding: 10px 10px 0 10px;

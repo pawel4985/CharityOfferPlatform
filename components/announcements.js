@@ -7,9 +7,10 @@ window.addEventListener('load',async()=>{
             announcements.forEach(element => {
                 let div = document.createElement("div")
                 div.classList.add("annoucement")
-
-                let img = document.createElement("img")
-                img.src="img/annoucements/image.webp"
+                
+                let img = document.createElement("div")
+                img.classList.add("img")
+                img.style=`background-image: url('img/annoucements/${element.id}/${element.img}')`;
                 div.appendChild(img);
 
                 let title = document.createElement("p")
