@@ -1,3 +1,4 @@
+<script src="components/announcements.js" defer></script>
 <div class="announcements">
   <div class="search">
     <input type="text"><button>SZUKAJ</button>
