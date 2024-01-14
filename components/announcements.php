@@ -35,41 +35,7 @@
   <div class="offers">
     <h1>Ogłoszenia</h1>
     <div class="content">
-      <div class="annoucement">
-        <div class="img" style="background-image: url('img/annoucements/image.webp')"></div>
-        <p class="title">Bluza adidas</p>
-        <p class="price">100 zł</p>
-        <p class="location">Toruń</p>
-        <p class="date">25 grudnia 2023</p>
-      </div>
-      <div class="annoucement">
-        <div class="img" style="background-image: url('img/annoucements/image.webp')"></div>
-        <p class="title">Bluza adidas</p>
-        <p class="price">100 zł</p>
-        <p class="location">Toruń</p>
-        <p class="date">25 grudnia 2023</p>
-      </div>
-      <div class="annoucement">
-        <div class="img" style="background-image: url('img/annoucements/image.webp')"></div>
-        <p class="title">Bluza adidas</p>
-        <p class="price">100 zł</p>
-        <p class="location">Toruń</p>
-        <p class="date">25 grudnia 2023</p>
-      </div>
-      <div class="annoucement">
-        <div class="img" style="background-image: url('img/annoucements/image.webp')"></div>
-        <p class="title">Bluza adidas</p>
-        <p class="price">100 zł</p>
-        <p class="location">Toruń</p>
-        <p class="date">25 grudnia 2023</p>
-      </div>
-      <div class="annoucement">
-        <div class="img" style="background-image: url('img/annoucements/image.webp')"></div>
-        <p class="title">Bluza adidas</p>
-        <p class="price">100 zł</p>
-        <p class="location">Toruń</p>
-        <p class="date">25 grudnia 2023</p>
-      </div>
+      
     </div>
   </div>
 </div>

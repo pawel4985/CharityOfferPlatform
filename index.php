@@ -26,6 +26,7 @@ require_once("modules/session.php");
             'login' => 'components/loginRegister.php',
             'addannouncement' => 'components/addAnnouncement.html',
             'announcements' => 'components/announcements.php',
+            'cart' => 'components/cart.php',
             'logout' => 'components/logout.php',
         ];
         if (isset($_GET['page'])) {
