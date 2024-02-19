@@ -1,27 +1,28 @@
+<script src="components/addAnnouncement.js" defer></script>
 <div class="addannouncement">
-<h1>Dodaj ogłoszenie</h1>
-<div class="info">
-<label for="title">Tytuł ogłoszenia</label>
-<input type="text" name="title" />
-<label for="category">Wybierz kategorie</label>
-<select name="category">
-    <option value="" selected disabled hidden>Wybierz kategorie</option>
-</select>
-<label for="file">Dodaj zdjęcia</label>
-<input type="file" name="file" />
-<label for="description">Opis</label>
-<textarea name="description"></textarea>
-</div>
-<h2>Kontakt do ciebie</h2>
-<div class="contact">
-<label for="location">Lokalizacja</label>
-<input type="text" name="location" />
-<label for="contactPerson">Osoba kontaktowa</label>
-<input type="text" name="contactPerson" />
-<label for="email">E-mail</label>
-<input type="email" name="email" />
-<label for="phone">Numer Telefonu</label>
-<input type="text" name="phone" />
-<button>Dodaj ogłoszenie</button>
-</div>
+  <h1>Dodaj ogłoszenie</h1>
+  <div class="info">
+    <label for="title">Tytuł ogłoszenia</label>
+    <input type="text" name="title" />
+    <label for="price">Cena</label>
+    <input type="number" name="price" min="0" />
+    <label for="category">Wybierz kategorie</label>
+    <select name="category">
+      <option value="" selected disabled hidden>Wybierz kategorie</option>
+    </select>
+    <label for="file">Dodaj zdjęcia</label>
+    <input type="file" name="file" />
+    <label for="description">Opis</label>
+    <input type="text" name="description"></input>
+  </div>
+  <h2>Kontakt do ciebie</h2>
+  <div class="contact">
+    <label for="location">Lokalizacja</label>
+    <input type="text" name="location" />
+    <label for="contactPerson">Osoba kontaktowa</label>
+    <input type="text" name="contactPerson" />
+    <label for="phone">Numer Telefonu</label>
+    <input type="text" name="phone" />
+    <button>Dodaj ogłoszenie</button>
+  </div>
 </div>

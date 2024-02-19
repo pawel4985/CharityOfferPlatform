@@ -4,7 +4,9 @@ const cartContent = document.cookie.match("(^|;) ?cart=([^;]*)(;|$)");
 if (cartContent) {
   const cartValue = cartContent[2];
   const cartArray = JSON.parse(cartValue);
-  list.textContent = "Zawartość koszyka:";
+  let h = document.createElement("h1")
+  h.textContent="Zawartość koszyka:"
+  list.appendChild(h);
   window.addEventListener("load", async () => {
     await fetch("./modules/getannouncements.php", {})
       .then((response) => response.json())
@@ -30,15 +32,15 @@ if (cartContent) {
             price.classList.add("price");
             div.appendChild(price);
 
-            let location = document.createElement("p");
-            location.textContent = element.location;
-            location.classList.add("location");
-            div.appendChild(location);
+            // let location = document.createElement("p");
+            // location.textContent = element.location;
+            // location.classList.add("location");
+            // div.appendChild(location);
 
-            let date = document.createElement("p");
-            date.textContent = element.date;
-            date.classList.add("date");
-            div.appendChild(date);
+            // let date = document.createElement("p");
+            // date.textContent = element.date;
+            // date.classList.add("date");
+            // div.appendChild(date);
 
             list.appendChild(div);
           }
